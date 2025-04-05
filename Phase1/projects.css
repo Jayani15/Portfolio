@@ -1,0 +1,37 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px #ffffff;
+    text-decoration: underline;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.project-card img {
+    position: relative;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 300pxx;
+}
